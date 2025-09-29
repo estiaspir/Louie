@@ -28,3 +28,8 @@ color: #059e0d;
     justify-content: space-between;
     align-items: center;
 }
+
+.newdiv{
+    font-size: 1.3rem;
+    margin-left: 10em;
+}
