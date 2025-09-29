@@ -11,3 +11,20 @@ h1{
 padding: 1rem;
 color: #059e0d;
 }
+
+.button{
+    display: inline-block;
+    border: none;
+    background-color: #059e0d;
+    color:aliceblue;
+    font-size: 1.2rem;
+    padding: 0.5em;
+    margin: 0 auto;
+    border-radius: .2em;
+}
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
