@@ -8,13 +8,23 @@
 </head>
 <body>
    <header >
-<div class="container">
-    <h2><span>yoker</span>yukra</h2>
+<div class="container topdiv">
+   <div class="logoandslogen">
+    <svg class="logo" width="330" height="340" viewBox="0 0 330 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="logo">
+<path id="rightleg" d="M251.792 327.822L208 221.652L275.469 203L294.404 316.042L251.792 327.822Z" fill="#ffffff"/>
+<path id="leftleg" d="M51.4704 316.834L66.6854 203L134.433 220.614L94.2584 327.959L51.4704 316.834Z" fill="#ffffff"/>
+<ellipse id="top" cx="168" cy="155.5" rx="150" ry="92.5" fill="#57C433"/>
+<path id="pot" d="M154.146 90L145 14H191L183.199 90H154.146Z" fill="#ffffff"/>
+</g>
+</svg>
+ <h2><span>yoker</span>yukra</h2>
+ </div>
     <nav>
        
             <a href="#" class="home mylink current">Home</a>
             <a href="#" class="about mylink">About</a>
-            <a href="#" class="mylink">Products</a>
+            <a href="#" class="product mylink">Products</a>
             <a href="#" class="contact mylink">Contact</a>
             <a href="#" class="mylink">Login</a>
       
@@ -40,8 +50,18 @@
         <div class="container">
             <h1 class="plastic"> Recycling Plastic Waste <br class="notmob"/>
            <span  class="creating"> Designing & Creating Products</span></h1>
+          <div class="text-changer">
+            <h3 class="info intro-text">Each item  </h3>
+         <h3 class="info roles-container" >
+               <span class="uniqe role">Is uniqe</span>
+                <span class="uniqe role">Shines</span>
+               <span class="uniqe role">Glows</span>
+               <span class="uniqe role">Sparks</span> 
+                 <span class="uniqe role">Is awesome!</span>
+            </h3> 
            
-            <h3 class="info">Each item is <span class="uniqe">uniqe</span></h3> 
+            </div> 
+           
             <a herf="#" class="button inbanner">shop now</a>
             <p class="son">Hi</p>
         </div>
@@ -152,11 +172,11 @@
     <section class="contact">
         <div class="container">
             <h2>Contact Us</h2>
-            <form>
+            <form action="https://formsubmit.co/esti3052018@gmail.com" method="POST">
                 <div class="form-grid">
-                    
-                        <input type="text" name="name" placeholder="Name" class="form-element">
-                        <input type="email" name="email" placeholder="Email" class="form-element">
+                 <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html#" >   
+                        <input type="text" name="name" placeholder="Name" class="form-element" required>
+                        <input type="email" name="email" placeholder="Email" class="form-element" required>
                   <textarea name="message" id="message" placeholder="Send your coments" class="form-area"></textarea>
                  
                 </div>

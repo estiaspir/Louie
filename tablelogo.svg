@@ -1,0 +1,8 @@
+<svg class="logo" width="330" height="340" viewBox="0 0 330 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="logo">
+<path id="rightleg" d="M251.792 327.822L208 221.652L275.469 203L294.404 316.042L251.792 327.822Z" fill="#ffffff"/>
+<path id="leftleg" d="M51.4704 316.834L66.6854 203L134.433 220.614L94.2584 327.959L51.4704 316.834Z" fill="#ffffff"/>
+<ellipse id="top" cx="168" cy="155.5" rx="150" ry="92.5" fill="#57C433"/>
+<path id="pot" d="M154.146 90L145 14H191L183.199 90H154.146Z" fill="#ffffff"/>
+</g>
+</svg>
